@@ -33,33 +33,7 @@
     <span class="quote_ko"></span>
   </div>
 
-  <header id="header">
-    <ul class="gnb">
-      <li class="depth2">
-        <a href="홈페이지 주소"></a>
-      </li>
-      <li class="depth2">
-        <a href="홈페이지 주소"></a>
-      </li>
-      <li class="depth2">
-        <a href="홈페이지 주소"></a>
-      </li>
-    </ul>
-  </header>
 
-  <script>
-    $(document).ready(function () {
-      var url = window.location.href;
-  
-      $('#header .gnb .depth2 > a').filter(function () {
-        if (url.includes('sub01.php')) {
-          $(this).parent(".depth1").addClass('active');
-        } else if (url.includes('sub02.php')) {
-          $(this).parent(".depth1").addClass('active');
-        } 
-      })
-    });
-  </script>
   <div id="weather">
     <span class="weather_weather"></span>
     <span class="weather_place"></span>
