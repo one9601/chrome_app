@@ -1,4 +1,4 @@
-const API_KEY = "6d5a49ca76d0f068858ce8ce4699932c";
+const API_KEY = "openweathermap 에서 받은 key";
 
 
 function onGeoOk(position){
@@ -23,3 +23,6 @@ function onGeoError(){
 
 
 navigator.geolocation.getCurrentPosition(onGeoOk, onGeoError);
+
+// onGeoOK = 위치정보를 받는데 성공한 경우 (허용)
+// onGeoError = 위치정보를 받는데 실패한 경우 (거부)

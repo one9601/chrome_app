@@ -40,12 +40,16 @@ const quotes = [
     korean : "스스로에 대해 안좋은 얘기 하지 말자.",
   },
 ]
+// 명언 배열 저장
 
 const quote_en = document.querySelector(".quoteBox .quote_en");
 const quote_ko = document.querySelector(".quoteBox .quote_ko");
 
 
 const todaysQuote = quotes[Math.floor(Math.random() * quotes.length)];
+
+
+
 
 quote_en.innerText = todaysQuote.quote;
 quote_ko.innerText = todaysQuote.korean;

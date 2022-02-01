@@ -12,12 +12,11 @@ function getClock(){
 
   // clock.innerText = (`${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`);
   // 2자리 이하인 숫자앞에 0을 붙이기위하여 위와같이 코드수정
+  // String을 사용하는 이유 : padStart는 문자열의 시작을 다른 문자로 채워주는 함수이기 때문.
 
 };
 
 String(new Date().getHours());
-// "1".padStart(2,"0");
-// "1".padEnd(2."0");
 
 getClock();
 setInterval(getClock, 1000);
