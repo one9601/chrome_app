@@ -16,7 +16,7 @@ function sexyFilter(toDo){
   // toDo.id 와 parseInt(li.id)가 같지 않으면, true를 반환해야 함.
   // toDo.id는 number타입, console.log(typeof li.id);로 확인해볼 수 있는데, li.id는 문자열 이므로 값이 일치할 수가 없음. parseInt를 통해 문자열을 숫자로 반환하면 해결됨.
 }
-[1,2,3,4].filter(sexyFilter);
+// [1,2,3,4].filter(sexyFilter);
 // filter는 foreach와 비슷하게 반복하는데, 즉 sexyFilter(1), sexyFilter(2), sexyFilter(3), sexyFilter(4)가 실해된다. true라면 유지하고, flase라면 제외될 것.
 
 
